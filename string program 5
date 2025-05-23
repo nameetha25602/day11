@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+   char str[]="namitha";
+   scanf("%[^\n]",str);
+   printf("%d",sizeof(str));
+
+    return 0;
+}
